@@ -1,0 +1,706 @@
+Accepted,ActionDate,ActionDescription,ActionType,CompletionDate,ContactId,CreatedBy,CreationDate,CreationNotes,Id,IsAppointment,LastUpdated,LastUpdatedBy,ObjectType,OpportunityId,Priority,UserID,_SourceAppActionID
+1,2014-04-29 00:49:43,Changed Info for order form '3 hole punch order form',UPDATE,2014-04-29 00:49:43,8285,1,2014-04-29 00:49:43,"This contact was modified on 10/14/2013 2:24 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+StreetAddress1=
+City=
+State=
+PostalCode=
+ZipFour1=
+Country=
+Address2Street1=
+City2=
+State2=
+PostalCode2=
+ZipFour2=
+Country2=
+Title=
+Suffix=
+FirstName=Josh
+LastName=Fullmer
+STUFFFFFF",6,0,2014-04-29 01:49:44,-1,Note,,3,Josh Fullmer',6
+1,2013-10-14 14:25:36,Changed Info for order form '3 hole punch order form',UPDATE,2013-10-14 14:25:36,8285,1,2013-10-14 14:25:36,"This contact was modified on 10/14/2013 2:25 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+StreetAddress1=132 street
+Address2Street1=132 street
+",10,0,2013-10-14 14:25:36,1,Note,,3,"",10
+0,2013-10-14 14:25:36,Order Form details,,2013-10-14 14:25:36,8285,-1,2013-10-14 14:25:36,"An order form (Cha-ching! Somebody bought something.) was submitted with the following information:
+IP Address: 184.185.173.162
+infusion_name: 3 hole punch order form
+infusion_xid: 35d31dd1425015db57a2bc8a3b0513d9
+infusion_type: CustomFormSale
+PurchaseType: A
+CreditCard0CardType: Visa
+Contact0State: az
+javaEnabled: true
+CreditCard0ExpirationYear: 2027
+Contact0Country: United States
+CreditCard0ExpirationMonth: 01
+Retry: true
+duplicateSubscription: false
+NotLegacy: true
+PlanCount_A: 1
+Contact0StreetAddress2: 
+Contact0StreetAddress1: 123 street
+screenResolution: 1600x900
+CreditCard0CardNumber: 12bad1223fd0f6153800a393518259f7a697a47836a4fdbf8a900150c2140202
+ProductId: 28
+Contact0PostalCode: 85233
+PayTotal_A: 9.0
+duplicateOrder: false
+pluginList: Google Update,Java(TM) Platform SE 7 U25,Java Deployment Toolkit 7.0.250.17,Shockwave Flash,Adobe Acrobat,Adobe Acrobat,Silverlight Plug-In,Microsoft Office 2010,Microsoft Office 2010
+Contact0Email: josh.fullmer@infusionsoft.com
+CAttempt: false
+Contact0LastName: test
+Contact0FirstName: infusionsoft
+Contact0City: place
+",12,0,2013-10-14 14:25:36,1,Note,,3,"",12
+1,2013-10-14 14:28:19,Changed Info for order form '3 hole punch order form',UPDATE,2013-10-14 14:28:19,8285,1,2013-10-14 14:28:19,"This contact was modified on 10/14/2013 2:28 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+FirstName=Infusionsoft
+LastName=Test
+",14,0,2013-10-14 14:28:19,1,Note,,3,"",14
+0,2013-10-14 14:28:19,Order Form details,,2013-10-14 14:28:19,8285,-1,2013-10-14 14:28:19,"An order form (Cha-ching! Somebody bought something.) was submitted with the following information:
+IP Address: 184.185.173.162
+infusion_name: 3 hole punch order form
+infusion_xid: 35d31dd1425015db57a2bc8a3b0513d9
+infusion_type: CustomFormSale
+PurchaseType: A
+CreditCard0CardType: Visa
+Contact0State: AZ
+javaEnabled: true
+CreditCard0ExpirationYear: 2027
+Contact0Country: United States
+CreditCard0ExpirationMonth: 01
+Retry: true
+duplicateSubscription: false
+NotLegacy: true
+PlanCount_A: 1
+Contact0StreetAddress2: 
+Contact0StreetAddress1: 123 street
+screenResolution: 1600x900
+CreditCard0CardNumber: 12bad1223fd0f6153800a393518259f7a697a47836a4fdbf8a900150c2140202
+ProductId: 28
+Contact0PostalCode: 85233
+PayTotal_A: 9.0
+duplicateOrder: false
+pluginList: Google Update,Java(TM) Platform SE 7 U25,Java Deployment Toolkit 7.0.250.17,Shockwave Flash,Adobe Acrobat,Adobe Acrobat,Silverlight Plug-In,Microsoft Office 2010,Microsoft Office 2010
+Contact0Email: josh.fullmer@infusionsoft.com
+CAttempt: false
+Contact0LastName: johnson
+Contact0FirstName: jack
+Contact0City: place
+",16,0,2013-10-14 14:28:19,1,Note,,3,"",16
+1,2013-11-21 11:08:22,Changed Info for order form 'Auto-charge Test',UPDATE,2013-11-21 11:08:22,8285,1,2013-11-21 11:08:22,"This contact was modified on 11/21/2013 11:08 AM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+StreetAddress1=123 street
+City=Place
+Address2Street1=123 street
+City2=Place
+FirstName=Someone
+LastName=Johnson
+",18,0,2013-11-21 11:08:22,1,Note,,3,"",18
+0,2013-11-21 11:08:24,Legacy Order Form details: Failed,,2013-11-21 11:08:24,8285,-1,2013-11-21 11:08:24,"A legacy order form (Cha-ching! Somebody bought something.) was submitted with the following information:
+IP Address: 184.185.173.162
+infusion_name: Auto-charge Test
+infusion_xid: e7662e24b30038100ab25933c10b89d6
+infusion_type: CustomFormSale
+PurchaseType: A
+CreditCard0CardType: Visa
+Contact0State: az
+javaEnabled: true
+CreditCard0ExpirationYear: 2027
+Contact0Country: United States
+CreditCard0VerificationCode: 
+CreditCard0ExpirationMonth: 01
+NotLegacy: true
+PlanCount_A: 1
+Contact0StreetAddress2: 
+Contact0StreetAddress1: 132 place
+screenResolution: 1600x900
+CreditCard0CardNumber: 12bad1223fd0f6153800a393518259f7a697a47836a4fdbf8a900150c2140202
+Contact0PostalCode: 85233
+ProductId: 2
+PayTotal_A: 10.0
+pluginList: Citrix Online Web Deployment Plugin 1.0.0.104,Google Update,Java(TM) Platform SE 7 U45,Java Deployment Toolkit 7.0.450.18,Shockwave Flash,Adobe Acrobat,Adobe Acrobat,Silverlight Plug-In,Microsoft Office 2010,Microsoft Office 2010
+Contact0Email: josh.fullmer@infusionsoft.com
+CAttempt: 
+Contact0LastName: jones
+Contact0FirstName: somebody
+Contact0City: city
+",20,0,2013-11-21 11:08:24,1,Note,,3,"",20
+0,2013-11-21 11:09:46,Legacy Order Form details: Failed,,2013-11-21 11:09:46,8285,-1,2013-11-21 11:09:46,"A legacy order form (Cha-ching! Somebody bought something.) was submitted with the following information:
+IP Address: 184.185.173.162
+Duplicate Order
+infusion_name: Auto-charge Test
+infusion_xid: e7662e24b30038100ab25933c10b89d6
+infusion_type: CustomFormSale
+PurchaseType: A
+CreditCard0CardType: Visa
+Contact0State: az
+javaEnabled: true
+CreditCard0ExpirationYear: 2027
+Contact0Country: United States
+CreditCard0VerificationCode: 
+CreditCard0ExpirationMonth: 01
+Retry: false
+duplicateSubscription: false
+NotLegacy: true
+PlanCount_A: 1
+Contact0StreetAddress2: 
+Contact0StreetAddress1: 132 place
+screenResolution: 1600x900
+CreditCard0CardNumber: 12bad1223fd0f6153800a393518259f7a697a47836a4fdbf8a900150c2140202
+Contact0PostalCode: 85233
+ProductId: 2
+PayTotal_A: 10.0
+duplicateOrder: true
+pluginList: Citrix Online Web Deployment Plugin 1.0.0.104,Google Update,Java(TM) Platform SE 7 U45,Java Deployment Toolkit 7.0.450.18,Shockwave Flash,Adobe Acrobat,Adobe Acrobat,Silverlight Plug-In,Microsoft Office 2010,Microsoft Office 2010
+Contact0Email: josh.fullmer@infusionsoft.com
+CAttempt: false
+Contact0LastName: lastname
+Contact0FirstName: person
+Contact0City: city
+",22,0,2013-11-21 11:09:46,1,Note,,3,"",22
+0,2013-11-21 11:10:59,Legacy Order Form details,,2013-11-21 11:10:59,8285,-1,2013-11-21 11:10:59,"A legacy order form (Cha-ching! Somebody bought something.) was submitted with the following information:
+IP Address: 184.185.173.162
+infusion_name: Auto-charge Test
+infusion_xid: e7662e24b30038100ab25933c10b89d6
+infusion_type: CustomFormSale
+PurchaseType: A
+CreditCard0CardType: Visa
+Contact0State: az
+javaEnabled: true
+CreditCard0ExpirationYear: 2027
+CreditCard0VerificationCode: 
+Contact0Country: United States
+CreditCard0ExpirationMonth: 01
+NotLegacy: true
+PlanCount_A: 1
+Contact0StreetAddress2: 
+Contact0StreetAddress1: 132 place
+screenResolution: 1600x900
+CreditCard0CardNumber: 12bad1223fd0f6153800a393518259f7a697a47836a4fdbf8a900150c2140202
+Contact0PostalCode: 85233
+PayTotal_A: 5.0
+ProductId: 6
+pluginList: Citrix Online Web Deployment Plugin 1.0.0.104,Google Update,Java(TM) Platform SE 7 U45,Java Deployment Toolkit 7.0.450.18,Shockwave Flash,Adobe Acrobat,Adobe Acrobat,Silverlight Plug-In,Microsoft Office 2010,Microsoft Office 2010
+Contact0Email: josh.fullmer@infusionsoft.com
+CAttempt: 
+Contact0LastName: person
+Contact0FirstName: firstname
+Contact0City: city
+",24,0,2013-11-21 11:10:59,1,Note,,3,"",24
+1,2013-11-26 15:39:36,Changed Info for order form 'Test',UPDATE,2013-11-26 15:39:36,8285,1,2013-11-26 15:39:36,"This contact was modified on 11/26/2013 3:39 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+StreetAddress1=
+City=
+State=null
+PostalCode=null
+Country=null
+Address2Street1=null
+City2=null
+State2=null
+PostalCode2=null
+Country2=null
+",26,0,2013-11-26 15:39:36,1,Note,,3,"",26
+0,2013-11-26 15:39:39,Legacy Order Form details,,2013-11-26 15:39:39,8285,-1,2013-11-26 15:39:39,"A legacy order form (Cha-ching! Somebody bought something.) was submitted with the following information:
+IP Address: 184.185.173.162
+infusion_name: Test
+infusion_xid: 87788ef8ce8bbd043911b6a8481444bc
+infusion_type: CustomFormSale
+PurchaseType: A
+Contact0State: az
+CreditCard0CardType: Visa
+javaEnabled: true
+CreditCard0ExpirationYear: 2027
+Contact0Country: United States
+CreditCard0ExpirationMonth: 01
+NotLegacy: true
+PlanCount_A: 1
+Contact0StreetAddress2: 
+Contact0StreetAddress1: 123 place
+screenResolution: 1600x900
+CreditCard0CardNumber: 12bad1223fd0f6153800a393518259f7a697a47836a4fdbf8a900150c2140202
+Contact0PostalCode: 85233
+ProductId: 2
+PayTotal_A: 10.0
+pluginList: Citrix Online Web Deployment Plugin 1.0.0.104,Google Update,Java(TM) Platform SE 7 U45,Java Deployment Toolkit 7.0.450.18,Shockwave Flash,Adobe Acrobat,Adobe Acrobat,Silverlight Plug-In,Microsoft Office 2010,Microsoft Office 2010
+Contact0Email: josh.fullmer@infusionsoft.com
+CAttempt: 
+Contact0LastName: FULLMER
+Contact0FirstName: JOSH
+Contact0City: city
+",28,0,2013-11-26 15:39:39,1,Note,,3,"",28
+1,2014-05-12 19:28:29,Changed Info for Corp Draw Playmat,UPDATE,2014-05-12 19:28:29,8373,-1,2014-05-12 19:28:29,"This contact was modified on 5/12/2014 7:28 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=
+Phone1Type=Work
+Phone1Ext=
+Phone2=
+Phone2Type=Work
+Phone2Ext=
+StreetAddress1=
+City=
+State=
+PostalCode=
+ZipFour1=
+Country=
+Address2Street1=
+City2=
+State2=
+PostalCode2=
+ZipFour2=
+Country2=
+ContactType=
+Title=
+Suffix=
+LastName=Me
+ContactNotes=
+",202,0,2014-05-12 19:28:29,-1,Note,,3,"",202
+1,2014-05-12 19:38:49,Changed Info for Corp Draw Playmat,UPDATE,2014-05-12 19:38:49,8285,1,2014-05-12 19:38:49,"This contact was modified on 5/12/2014 7:38 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone2=(123) 456-7890
+Phone2Type=Work
+Phone2Ext=
+StreetAddress1=132 place
+City=City
+Address2Street1=132 place
+City2=City
+LastName=Fullmer
+_Somethingdropdown=
+_CUSTOMFIELD=
+_CUSTOMFIELD2014=
+_Listboxtest=
+_ABClistbox=
+_textarea=
+_testestest=
+_Initials=
+_ContactUsComments=
+_NPSComments=
+",204,0,2014-05-12 19:38:49,1,Note,,3,"",204
+1,2014-05-12 19:53:50,Changed Info for Corp Draw Playmat,UPDATE,2014-05-12 19:53:50,8373,1,2014-05-12 19:53:50,"This contact was modified on 5/12/2014 7:53 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=(480) 276-5071
+Phone2=(480) 276-5071
+StreetAddress1=1333 W Guadalupe Rd #327
+State=ARIZONA
+Address2Street1=1333 W Guadalupe Rd #327
+State2=ARIZONA
+",206,0,2014-05-12 19:53:50,1,Note,,3,"",206
+1,2014-05-13 10:52:38,Changed Info for Corp Draw Playmat,UPDATE,2014-05-13 10:52:38,8373,1,2014-05-13 10:52:38,"This contact was modified on 5/13/2014 10:52 AM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=(132) 456-7890
+Phone2=(132) 456-7890
+City=Gilbert
+State=AZ
+PostalCode=85233
+City2=Gilbert
+State2=AZ
+PostalCode2=85233
+",208,0,2014-05-13 10:52:38,1,Note,,3,"",208
+1,2014-05-14 14:25:47,Changed Info for Corp Draw Playmat,UPDATE,2014-05-14 14:25:47,8373,-1,2014-05-14 14:25:47,"This contact was modified on 5/14/2014 2:25 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+StreetAddress1=1333 w guadalupe rd
+PostalCode=82222
+Address2Street1=1333 w guadalupe rd
+PostalCode2=82222
+",210,0,2014-05-14 14:25:47,-1,Note,,3,"",210
+1,2014-05-14 14:28:15,Changed Info for Corp Draw Playmat,UPDATE,2014-05-14 14:28:15,8373,-1,2014-05-14 14:28:15,"This contact was modified on 5/14/2014 2:28 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=(123) 456-7890
+Phone2=(123) 456-7890
+StreetAddress1=123 place
+City=City
+State=STATE
+PostalCode=85233
+Address2Street1=123 place
+City2=city
+State2=STATE
+PostalCode2=85233
+",212,0,2014-05-14 14:28:15,-1,Note,,3,"",212
+1,2014-05-14 14:37:24,Changed Info for Corp Draw Playmat,UPDATE,2014-05-14 14:37:24,8373,-1,2014-05-14 14:37:24,"This contact was modified on 5/14/2014 2:37 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=(132) 456-8790
+Phone2=(132) 456-8790
+City=123
+State=AZ
+City2=123
+State2=AZ
+",214,0,2014-05-14 14:37:24,-1,Note,,3,"",214
+1,2014-05-14 14:39:54,Changed Info for Corp Draw Playmat,UPDATE,2014-05-14 14:39:54,8373,1,2014-05-14 14:39:54,"This contact was modified on 5/14/2014 2:39 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+StreetAddress1=123
+City=City
+State=STATE
+Address2Street1=123
+City2=city
+State2=STATE
+FirstName=Josh
+",216,0,2014-05-14 14:39:54,1,Note,,3,"",216
+1,2014-05-14 14:52:35,Changed Info for Corp Draw Playmat,UPDATE,2014-05-14 14:52:35,8285,-1,2014-05-14 14:52:35,"This contact was modified on 5/14/2014 2:52 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=(480) 276-5071
+Phone1Type=Work
+Phone1Ext=
+Phone2=(480) 276-5071
+StreetAddress1=1333 w guadalupe rd
+City=Gilbert
+State=az
+PostalCode=85233
+ZipFour1=1234
+Address2Street1=1333 w guadalupe rd
+City2=gilbert
+State2=az
+PostalCode2=85233
+ZipFour2=
+",218,0,2014-05-14 14:52:35,-1,Note,,3,"",218
+1,2014-05-15 12:32:56,Changed Info for Corp Draw Playmat,UPDATE,2014-05-15 12:32:56,8285,-1,2014-05-15 12:32:56,"This contact was modified on 5/15/2014 12:32 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=12345670
+Phone2=12345670
+StreetAddress1=Stuff
+City=City
+State=STATE
+Address2Street1=stuff
+City2=city
+State2=STATE
+",222,0,2014-05-15 12:32:56,-1,Note,,3,"",222
+1,2014-05-17 04:24:25,Changed Info for Corp Draw Playmat,UPDATE,2014-05-17 04:24:25,8397,-1,2014-05-17 04:24:25,"This contact was modified on 5/17/2014 4:24 AM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=(602) 370-2173
+Phone2=(602) 370-2173
+State=AZ
+State2=AZ
+",224,0,2014-05-17 04:24:25,-1,Note,,3,"",224
+1,2014-05-22 18:23:57,Changed Info for stapler order form,UPDATE,2014-05-22 18:23:57,8285,1,2014-05-22 18:23:57,"This contact was modified on 5/22/2014 6:23 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=(123) 456-7980
+StreetAddress1=Test
+City=Test
+State=TEST
+",226,0,2014-05-22 18:23:57,1,Note,,3,"",226
+1,2014-06-05 11:31:43,Changed Info for eBook,UPDATE,2014-06-05 11:31:43,8285,1,2014-06-05 11:31:43,"This contact was modified on 6/5/2014 11:31 AM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+StreetAddress1=Adress
+State=state
+",230,0,2014-06-05 11:31:43,1,Note,,3,"",230
+1,2014-06-24 11:40:02,stuff,Call,2014-06-24 11:40:02,8285,1,2014-06-24 11:40:02,things,234,0,2014-06-24 11:40:02,1,Note,,3,Josh Fullmer',234
+1,2014-06-27 12:09:16,Changed Info for health bars,UPDATE,2014-06-27 12:09:16,8285,1,2014-06-27 12:09:16,"This contact was modified on 6/27/2014 12:09 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone2=(123) 456-7980
+Phone2Type=Work
+Phone2Ext=
+Address2Street1=test
+City2=test
+State2=TEST
+",236,0,2014-06-27 12:09:16,1,Note,,3,"",236
+0,2014-07-30 16:50:09,Order Form details: Failed,,2014-07-30 16:50:09,8285,-1,2014-07-30 16:50:09,"An order form (Cha-ching! Somebody bought something.) was submitted with the following information:
+IP Address: 70.166.189.38
+Affiliate: 
+PurchaseType: A
+id: Offline-114507
+SkipPayPlan: 0
+OrderType: Offline
+OrderDate: 
+PlanCount_A: 2
+PromoCode: 
+PayTotal_A: 10.0
+DupCheckOption: Email
+LeadAffiliate: 
+Submit: Next
+step: 4
+",306,0,2014-07-30 16:50:09,1,Note,,3,"",306
+1,2014-08-08 11:48:26,stuff,Email,2014-08-08 11:48:26,8333,1,2014-08-08 11:48:26,things,324,0,2014-08-08 11:48:26,1,Note,,3,Josh Fullmer',324
+1,2014-08-21 13:32:41,TEST,Call,2014-08-21 13:32:41,8285,-1,2014-08-21 13:32:41,TEST,382,0,2014-08-21 13:32:41,1,Note,,3,"",382
+1,2014-08-21 13:33:50,TEST,Call,2014-08-21 13:33:50,8285,-1,2014-08-21 13:33:50,TEST,384,0,2014-08-21 13:33:50,1,Note,,3,"",384
+1,2014-08-29 13:45:04,Changed Info for TEST,UPDATE,2014-08-29 13:45:04,8285,1,2014-08-29 13:45:04,"This contact was modified on 8/29/2014 1:45 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=(123) 456-7890
+Phone1Type=Work
+Phone1Ext=
+StreetAddress1=123 place
+State=AZ
+",414,0,2014-08-29 13:45:04,1,Note,,3,"",414
+1,2014-10-09 11:02:52,Changed Info for Direct to Hidden Field Thank You Page,UPDATE,2014-10-09 11:02:52,8285,1,2014-10-09 11:02:52,"This contact was modified on 10/9/2014 11:02 AM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+StreetAddress1=123
+FirstName=Joshtest
+",486,0,2014-10-09 11:02:52,1,Note,,3,"",486
+1,2014-12-05 12:24:05,Changed Info for Custom Field,UPDATE,2014-12-05 12:24:05,8285,-1,2014-12-05 12:24:05,"This contact was modified on 12/5/2014 12:24 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=123457980
+State=state
+_CUSTOMFIELD=null
+",490,0,2014-12-05 12:24:05,-1,Note,,3,"",490
+1,2015-02-03 09:55:57,Changed Info for Hide Phone Number,UPDATE,2015-02-03 09:55:57,8285,1,2015-02-03 09:55:57,"This contact was modified on 2/3/2015 9:55 AM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=(123) 456-7890
+Phone1Type=Work
+Phone1Ext=
+Phone2=(123) 456-7890
+Phone2Type=Work
+Phone2Ext=
+PostalCode=85233
+ZipFour1=
+",496,0,2015-02-03 09:55:57,1,Note,,3,"",496
+1,2015-02-04 10:04:49,Changed Info for Hide Phone Number,UPDATE,2015-02-04 10:04:49,8285,1,2015-02-04 10:04:49,"This contact was modified on 2/4/2015 10:04 AM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+State=AZ
+State2=AZ
+",500,0,2015-02-04 10:04:49,1,Note,,3,"",500
+1,2015-03-02 11:34:07,Changed Info for Payment Plan Auto-select,UPDATE,2015-03-02 11:34:07,8285,1,2015-03-02 11:34:07,"This contact was modified on 3/2/2015 11:34 AM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=555-5555
+Phone1Type=Work
+Phone1Ext=
+State=STATE
+",508,0,2015-03-02 11:34:07,1,Note,,3,"",508
+1,2015-03-26 12:42:43,Changed Info for Payment Plan Auto-select,UPDATE,2015-03-26 12:42:43,8285,1,2015-03-26 12:42:43,"This contact was modified on 3/26/2015 12:42 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+State=AZ
+",590,0,2015-03-26 12:42:43,1,Note,,3,"",590
+1,2015-06-22 11:37:23,TEST,Call,2015-06-22 11:37:23,8285,1,2015-06-22 11:37:23,,598,0,2015-06-22 11:37:23,1,Note,,3,Josh Fullmer',598
+1,2015-06-30 16:49:40,Changed Info for Deleted promo code,UPDATE,2015-06-30 16:49:40,8285,-1,2015-06-30 16:49:40,"This contact was modified on 6/30/2015 4:49 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=(123) 456-7890
+Phone1Type=Work
+Phone1Ext=
+State=state
+FirstName=Joshtest
+_Somethingdropdown=
+_CUSTOMFIELD2014=
+_Listboxtest=
+_ABClistbox=
+_textarea=
+_testestest=
+_Initials=
+_FrequencyofConfigSetup=
+_SubjectofConfigSetup=
+_JewelryType=
+_CurrentDate0=
+_StreetAddress=
+_Processchange=
+_YOLOPSatisfaction=
+_YOLOPComments=
+_YOLOPChange1=
+_YOLOPChange2=
+_YOLOPChange3=
+",602,0,2015-06-30 16:49:40,-1,Note,,3,"",602
+1,2015-07-21 16:05:42,Version 43.0.2357.134,,2015-07-21 16:05:42,8285,1,2015-07-21 16:05:42,,681,0,2015-07-21 16:05:42,1,Note,,3,Josh Fullmer',681
+1,2016-01-12 09:44:15,Changed Info for Good looking custom field,UPDATE,2016-01-12 09:44:15,8285,1,2016-01-12 09:44:15,"This contact was modified on 1/12/2016 9:44 AM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=(123) 456-7980
+Phone1Type=Work
+Phone1Ext=
+Phone2=555-5555
+Phone2Type=Work
+Phone2Ext=
+State2=STATE
+Country2=Canada
+FirstName=Joshtest
+_Somethingdropdown=
+_ABClistbox=
+_textarea=
+_testestest=
+_Initials=
+_FrequencyofConfigSetup=
+_SubjectofConfigSetup=
+_JewelryType=
+_CurrentDate0=
+_StreetAddress=
+_Processchange=
+_YOLOPSatisfaction=
+_YOLOPComments=
+_YOLOPChange1=
+_YOLOPChange2=
+_YOLOPChange3=
+_YOLOPCommonUses=
+_YOLOPCommonUsesTextArea=
+_Friend1Name=
+_AppointmentCoreContactID=
+",1992,0,2016-01-12 09:44:15,1,Note,,3,"",1992
+1,2016-01-12 09:47:15,Changed Info for Good looking custom field,UPDATE,2016-01-12 09:47:15,8285,1,2016-01-12 09:47:15,"This contact was modified on 1/12/2016 9:47 AM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+_GoodLookingCustomField=null
+",1994,0,2016-01-12 09:47:15,1,Note,,3,"",1994
+1,2016-01-20 15:37:57,Changed Info for Change Order Form Label,UPDATE,2016-01-20 15:37:57,8285,1,2016-01-20 15:37:57,"This contact was modified on 1/20/2016 3:37 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=(123) 456-7890
+State=AZ
+",2066,0,2016-01-20 15:37:57,1,Note,,3,"",2066
+1,2016-02-29 00:00:00,User ID Test,,2016-03-01 00:00:00,8285,1,2016-03-04 00:00:00,Sid the Sloth,2514,0,2016-03-04 10:24:49,-1,Note,,1,Josh Fullmer',2514
+1,2016-02-29 00:00:00,[Completed Task] Third Test,,2016-03-01 00:00:00,9663,1,2016-03-04 00:00:00,Test,2520,0,2016-03-04 10:45:19,-1,Note,,1,Josh Fullmer',2520
+1,2016-05-17 17:14:28,Changed Info for Mobile Form,UPDATE,2016-05-17 17:14:28,8285,1,2016-05-17 17:14:28,"This contact was modified on 5/17/2016 5:14 PM because of a discrepancy in data while updating.
+
+OLD INFORMATION:
+Phone1=(132) 456-7980
+Phone1Type=Work
+Phone1Ext=
+State=None
+_Somethingdropdown=
+_ABClistbox=
+_textarea=
+_testestest=
+_Initials=
+_FrequencyofConfigSetup=
+_SubjectofConfigSetup=
+_JewelryType=
+_CurrentDate0=
+_StreetAddress=
+_Processchange=
+_YOLOPSatisfaction=
+_YOLOPComments=
+_YOLOPChange1=
+_YOLOPChange2=
+_YOLOPChange3=
+_YOLOPCommonUses=
+_YOLOPCommonUsesTextArea=
+_Friend1Name=
+_AppointmentCoreContactID=
+_FKID=
+",3216,0,2016-05-17 17:14:28,1,Note,,3,"",3216
+1,2016-07-22 11:30:26,test,,2016-07-22 11:30:26,9321,1,2016-07-22 11:30:26,test,3752,0,2016-07-22 11:30:26,1,Note,,3,"",3752
+1,2016-07-25 17:54:33,Email History,Email,2016-07-25 17:54:33,8285,1,2016-07-25 17:54:33,"David,
+      
+      My apologies for the delayed response.  Do you have time next week to get
+      together?  I am available at the following times.
+      
+      Tuesday, Jan. 13 between 1-5 pm
+      Thursday, Jan. 15 between 9am-noon
+      Friday, Jan. 16 between 9am-noon
+      
+      Looking forward to hearing from you soon.
+      
+      Best,
+      Brittany
+      
+      On Thu, Dec 18, 2014 at 3:07 PM, David Fu &lt;dfu@4pt0.org&gt; wrote:
+      
+      &gt; Hi Brittany,
+      &gt; Sorry we missed you last night, but happy to chat the week of Jan 5th?
+      &gt; Feel free to find a time in my schedule &lt;https://doodle.com/davidthefu&gt; that
+      &gt; works for you, and schedule yourself in / send a google calendar invite for
+      &gt; a time that works for you.
+      &gt; Cheers,
+      &gt; Fu
+      &gt;
+      &gt; --
+      &gt; David Fu
+      &gt; 706-255-4126 / @davidthefu &lt;https://twitter.com/davidthefu&gt; / linkedin
+      &gt; &lt;http://www.linkedin.com/in/davidthefu/&gt; / schedule a meeting
+      &gt; &lt;http://www.doodle.com/davidthefu&gt; / listen to my music
+      &gt; &lt;https://soundcloud.com/david-fu-1&gt;
+      &gt; *@4pt0schools &lt;https://twitter.com/4pt0schools&gt;*
+      &gt;
+      &gt; latest 4.0:
+      &gt; *NYC Education Startup Landscape
+      &gt; &lt;http://4pt0.org/2014/10/07/the-4-0-breakdown-of-the-nyc-education-startup-landscape/&gt;*
+      &gt; *NYC Pitch Night (Jan 22, 2015)
+      &gt; &lt;http://4pt0.org/events/nyc/2015-launch-pitch-night-nyc/&gt;*
+      &gt;
+      &gt; On Wed, Dec 17, 2014 at 9:46 PM, Brittany Gibson &lt;
+      &gt; brittany.gibson@fueledschools.org&gt; wrote:
+      &gt;&gt;
+      &gt;&gt; Hello,
+      &gt;&gt;
+      &gt;&gt; So sorry I couldn't make it tonight. I would love to get together to
+      &gt;&gt; learn more and 4.0 Schools and what's happening in Houston. Let me know if
+      &gt;&gt; there is a time in the next few weeks that works for you. Thanks!
+      &gt;&gt;
+      &gt;&gt; Best,
+      &gt;&gt; Brittany Gibson
+      &gt;&gt; Houston City Lead, FuelEd Schools
+      &gt;&gt;
+      &gt;&gt; Please excuse any typos as this email was sent from my iPhone.
+      &gt;&gt;
+      &gt;&gt; On Dec 16, 2014, at 11:05 AM, John Ruff Dave Wakefield Mike Olson Arthur
+      &gt;&gt; Ortiz and Friends &lt;paperlesspost@paperlesspost.com&gt; wrote:
+      &gt;&gt;
+      &gt;&gt;        [image: Paperless Post]
+      &gt;&gt; &lt;https://www.paperlesspost.com?mkey=YnJpdHRhbnkuZ2lic29uQGZ1ZWxlZHNjaG9vbHMub3Jn&utm_campaign=followup&utm_medium=email&utm_source=ops&gt;    Friends,
+      &gt;&gt; colleagues, and fellow edupreneurs,     We would like to remind you that
+      &gt;&gt; this Wednesday, December 17th, Houston's leading education innovators will
+      &gt;&gt; be coming together to celebrate 4.0 Schools 4th birthday and all the
+      &gt;&gt; incredible work they've done thus far. This is also an important
+      &gt;&gt; opportunity for us to come together in one room and discuss Houston's
+      &gt;&gt; education agenda through the lens of the 21st Century. RSVP now and join
+      &gt;&gt; the celebration and the conversation.     We are looking forward to
+      &gt;&gt; seeing you this Wednesday at Saint Arnold's Brewing Company (2000 Lyons
+      &gt;&gt; Ave, Houston, TX 77020) from 7pm-9pm. Drinks and free goodies will be
+      &gt;&gt; provided.     Your hosts,   John (ScribeSense)   Dave (Sibme)   Mike
+      &gt;&gt; (Talent Unbound)   Arthur (University of St. Thomas)   Anthony
+      &gt;&gt; (Renaissance Global Liberation Academy) Andy and Ricky (PledgeCents)     [image:
+      &gt;&gt; Event invitation]
+      &gt;&gt; &lt;https://www.paperlesspost.com/events/9838444-4ec6ede9/replies/167699957-163e28a4?mkey=YnJpdHRhbnkuZ2lic29uQGZ1ZWxlZHNjaG9vbHMub3Jn&utm_campaign=followup&utm_medium=email&utm_source=ops&gt;    4.0
+      &gt;&gt; Schools Houston Birthday Bash    View card
+      &gt;&gt; &lt;https://www.paperlesspost.com/events/9838444-4ec6ede9/replies/167699957-163e28a4?mkey=YnJpdHRhbnkuZ2lic29uQGZ1ZWxlZHNjaG9vbHMub3Jn&utm_campaign=followup&utm_medium=email&utm_source=ops&gt; View
+      &gt;&gt; Guest List
+      &gt;&gt; &lt;https://www.paperlesspost.com/events/9838444-4ec6ede9/replies/167699957-163e28a4/public?mkey=YnJpdHRhbnkuZ2lic29uQGZ1ZWxlZHNjaG9vbHMub3Jn&utm_campaign=followup&utm_medium=email&utm_source=ops&gt;
+      &gt;&gt; For the best Paperless Post experience, add paperlesspost@paperlesspost.com
+      &gt;&gt; to your address book to ensure you receive all cards and invitations in
+      &gt;&gt; your inbox. Click here
+      &gt;&gt; &lt;https://www.paperlesspost.com/unsubscribe?mkey=YnJpdHRhbnkuZ2lic29uQGZ1ZWxlZHNjaG9vbHMub3Jn&utm_campaign=followup&utm_medium=email&utm_source=ops&gt;
+      &gt;&gt; to stop receiving emails from Paperless Post including invitations and
+      &gt;&gt; cards. Learn more about our privacy policy
+      &gt;&gt; &lt;https://www.paperlesspost.com/info/terms/privacy/privacy_policy?mkey=YnJpdHRhbnkuZ2lic29uQGZ1ZWxlZHNjaG9vbHMub3Jn&utm_campaign=followup&utm_medium=email&utm_source=ops&gt;.
+      &gt;&gt;   [image: Paperless Post]
+      &gt;&gt; &lt;https://www.paperlesspost.com/?mkey=YnJpdHRhbnkuZ2lic29uQGZ1ZWxlZHNjaG9vbHMub3Jn&utm_campaign=followup&utm_medium=email&utm_source=ops&gt;
+      &gt;&gt;
+      &gt;&gt;
+      
+      
+      -- 
+      Brittany Gibson
+      Houston City Lead, FuelEd Schools
+      512-940-6449
+      
+      We're hiring! &lt;http://fueledschools.com/wordpress/?page_id=981&gt;
+      www.fueledschools.org
+      www.facebook.com/FuelEdSchools
+      www.twitter.com/FuelEdSchools
+      Click here to receive our newsletter!
+      &lt;http://fueledschools.com/wordpress/?page_id=736&gt;
+      
+      
+      *Fueling Schools with the Power of Human Relationships*",3796,0,2016-07-25 17:54:33,1,Note,,3,Josh Fullmer',3796
+0,,Hello,,2016-12-19 19:37:30,9525,1,2016-12-19 19:37:30,Josh Fullmer,4872,0,2016-12-19 19:37:30,1,Note,,3,"",4872
+0,,Email: RE: Snaptech,,2016-12-19 19:56:24,9525,1,2016-12-19 19:56:24,"From: octavio@snaptech.com  To: cboycott@adventures-abroad.com, rlockhart@adventures-abroad.com  cc: jmukerji@adventures-abroad.com Received: 13/02/2014 2:18:02 PM Subject: RE: Snaptech  Hi Chris   Thanks for getting back to me and congratulations on the purchase of Bell Tours. I will call Ross or Jai and will be happy to explain to them the work we did for George.   Take care   Octavio    From: CBOYCOTT [mailto:CBoycott@adventures-abroad.com]  Sent: February-13-14 2:01 PM To: Octavio Marquez; Ross Lockhart Cc: Jai Mukerji Subject: RE: Snaptech   Octavio,   Ross Lockhart head of the Hi Tech Division and Jai Mukerji the Business Development Manager are now merging Bell Tours into our larger operation. Their contacts are; Ross Lockhart 604 303 5065 email HYPERLINK &quot;mailto:rlockhart@adventures-abroad.com&quot;rlockhart@adventures-abroad.com Jai Mukerji  604 303 5068 email HYPERLINK &quot;mailto:jmukerji@adventures-abroad.com&quot;jmukerji@adventures-abroad.com   I think what Ross wants to know is exactly what do you do for Bell Tours is it simply hosting ?   Chris Boycott     _____    From: Octavio Marquez [mailto:octavio@snaptechmarketing.com] Sent: Thu 2/13/2014 1:47 PM To: Chris Boycott Subject: Snaptech   Hi Chris   I got a message to call you but when I called your office the receptionist tells me that I am not allowed to leave a message or to call you directly. Feel free to call me when you get a chance.   Thanks   Octavio   HYPERLINK &quot;http://www.snaptech.ca/&quot;http://www.snaptech.ca/emailimages/EmailSigs/logo.jpg Regards, Octavio Marquez President & Co-Founder HYPERLINK &quot;mailto:omarquez@snaptech.com&quot;omarquez@snaptech.com HYPERLINK &quot;http://www.snaptech.com/&quot;www.snaptech.com HYPERLINK &quot;http://www.mkubed.com/&quot;www.mkubed.com  Suite 110 - 2465 Beta Ave. Burnaby BC V5C 5N1 Canada tel 604 677 0742 fax 604 677 5237 toll free US and Canada 1 866 899 4063  Follow us on HYPERLINK &quot;http://www.facebook.com/SnaptechMarketing&quot;Facebook | HYPERLINK &quot;http://www.twitter.com/SnapMarketing&quot;Twitter Read our blogs: HYPERLINK &quot;http://www.snaptech.com/snapblog/&quot;Snaptech | HYPERLINK &quot;http://www.mkubed.com/snapblog/&quot;mKubed   Sales is the single most important function of a company because if there are no sales, all other functions are rendered  irrelevant     Attachments(1): --image001.jpg",4874,0,2016-12-19 19:56:24,1,Note,,3,"",4874
+1,2017-01-27 13:21:21,Test Custom Field,Email,2017-01-27 13:21:21,8285,1,2017-01-27 13:21:21,Test Custom Field,5050,0,2017-01-27 13:30:50,-1,Note,,3,Josh Fullmer',5050
+0,,test1,,2017-02-22 11:36:47,9593,1,2017-02-22 00:00:00,body1,5270,0,2017-02-22 11:36:47,1,Note,,3,Josh Fullmer',5270
+0,,test2,,2017-02-22 11:36:47,9593,1,2017-02-22 00:00:00,body2,5272,0,2017-02-22 11:36:47,1,Note,,3,Josh Fullmer',5272
+0,,test3,,2017-02-22 11:36:47,9593,1,2017-02-22 00:00:00,body3,5274,0,2017-02-22 11:36:47,1,Note,,3,Josh Fullmer',5274
+0,,test4,,2017-02-22 11:36:47,9595,1,2017-02-22 00:00:00,body4,5276,0,2017-02-22 11:36:47,1,Note,,3,Josh Fullmer',5276
+0,,test5,,2017-02-22 11:36:47,9595,1,2017-02-22 00:00:00,body5,5278,0,2017-02-22 11:36:47,1,Note,,3,Josh Fullmer',5278
+0,,test6,,2017-02-22 11:36:47,9597,1,2017-02-22 00:00:00,body6,5280,0,2017-02-22 11:36:47,1,Note,,3,Josh Fullmer',5280
+0,,test7,,2017-02-22 11:36:47,9597,1,2017-02-22 00:00:00,body7,5282,0,2017-02-22 11:36:47,1,Note,,3,Josh Fullmer',5282
+0,,test8,,2017-02-22 11:36:47,9597,1,2017-02-22 00:00:00,body8,5284,0,2017-02-22 11:36:47,1,Note,,3,Josh Fullmer',5284

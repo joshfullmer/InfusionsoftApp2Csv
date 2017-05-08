@@ -1,0 +1,45 @@
+<div class="form-container">
+  <h2>Step 1: Contacts, Companies, Tags, and Products</h2>
+  <%= form_tag({action: :step1}, multipart: true) do %>
+	<h3>Source App Data</h3>
+	<%= text_field_tag :src_appname, nil, placeholder: 'appname' %>
+	.infusionsoft.com
+	<br />
+  <br />
+	<%= text_field_tag :src_apikey, nil, placeholder: 'Source App API Key' %>
+	<br />
+	<br />
+  <h3>Destination App Data</h3>
+	<%= text_field_tag :dest_appname, nil, placeholder: 'appname' %>
+	.infusionsoft.com
+	<br />
+	<br />
+	<%= text_field_tag :dest_apikey, nil, placeholder: 'Destination App API Key' %>
+	<br />
+	<br />
+  <hr />
+  <u><h3>Records to Transfer</h3></u>
+	<div>
+		<%= label_tag(:contacts, "Contacts w/ custom fields") %>
+		<%= check_box 'contacts', 'checkbox', {}, 'true', 'false' %>
+		<br />
+		<%= label_tag(:companies, "Companies") %>
+		<%= check_box 'companies', 'checkbox', {}, 'true', 'false' %>
+		<br />
+		<%= label_tag(:tags, "Tags") %>
+		<%= check_box 'tags', 'checkbox', {}, 'true', 'false' %>
+		<br />
+		<%= label_tag(:products, "Products") %>
+		<%= check_box 'products', 'checkbox', {}, 'true', 'false' %>
+	</div>
+  <br />
+  <hr />
+	<%= button_tag "Get CSVs" %>
+<% end %>
+</div>
+<div class="form-container">
+	<p><strong>Checklist before beginning</strong></p>
+	<ul>
+		<li>Create Custom Field Tabs for each record being transferred</li>
+	</ul>
+</div>

@@ -1,0 +1,42 @@
+<div class="form-container">
+  <h2>Step 1 Results:</h2>
+  <% if params[:tags][:checkbox] == 'true' %>
+    <p><%= @src_tag_count %> tags created in <%= params[:dest_appname]%></p>
+  <% end %>
+  <% if params[:products][:checkbox] == 'true' %>
+    <p><%= @src_prod_count %> products created in <%= params[:dest_appname]%></p>
+  <% end %>
+  <h2>Step 2: ContactActions, Tags for Contacts, Opportunities, and Orders</h2>
+  <%= form_tag({action: :step2}, multipart: true) do %>
+  <u><h3>Records to Transfer</h3></u>
+	<div>
+    <%= label_tag(:tags_for_contacts, "Tags for Contacts") %>
+		<%= check_box 'tags_for_contacts', 'checkbox', {}, 'true', 'false' %>
+		<br />
+    <%= label_tag(:notes, "Notes") %>
+    <%= check_box 'notes', 'checkbox', {}, 'true', 'false' %>
+    <br />
+		<%= label_tag(:tasks_appointments, "Tasks/Appointments") %>
+		<%= check_box 'tasks_appointments', 'checkbox', {}, 'true', 'false' %>
+		<br />
+		<%= label_tag(:opportunities, "Opportunities") %>
+		<%= check_box 'opportunities', 'checkbox', {}, 'true', 'false' %>
+    <br />
+    <%= label_tag(:orders, "Orders (No Items)") %>
+    <%= check_box 'orders', 'checkbox', {}, 'true', 'false' %>
+    <br />
+    <%= label_tag(:subscriptions, "Subscriptions") %>
+    <%= check_box 'subscriptions', 'checkbox', {}, 'true', 'false' %>
+    <%= text_field_tag :subscription_date, nil, placeholder: 'Cut Off Date (YYYY-MM-DD)' %>
+	</div>
+  <br />
+  <hr />
+	<%= button_tag "Get CSVs" %>
+<% end %>
+</div>
+<div class="form-container">
+	<p><strong>Checklist before beginning</strong></p>
+	<ul>
+		<li>Create Custom Field Tabs for each record being transferred</li>
+	</ul>
+</div>

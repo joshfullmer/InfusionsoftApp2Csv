@@ -1,0 +1,24 @@
+<div class="form-container">
+  <h2>Step 2 Results:</h2>
+  Placeholder for download links
+  <h2>Step 3: Order Items and Payments</h2>
+  <%= form_tag({action: :step3}, multipart: true) do %>
+  <u><h3>Records to Transfer</h3></u>
+	<div>
+    <%= label_tag(:order_items, "Order Items") %>
+		<%= check_box 'order_items', 'checkbox', {}, 'true', 'false' %>
+		<br />
+    <%= label_tag(:payments, "Payments") %>
+    <%= check_box 'payments', 'checkbox', {}, 'true', 'false' %>
+	</div>
+  <br />
+  <hr />
+	<%= button_tag "Get CSVs" %>
+<% end %>
+</div>
+<div class="form-container">
+	<p><strong>Checklist before beginning</strong></p>
+	<ul>
+		<li>Create Custom Field Tabs for each record being transferred</li>
+	</ul>
+</div>
