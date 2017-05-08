@@ -6,6 +6,9 @@
   <% if params[:products][:checkbox] == 'true' %>
     <p><%= @src_prod_count %> products created in <%= params[:dest_appname]%></p>
   <% end %>
+  <%= button_to [:download_step1] do %>
+    Download CSVs
+  <% end %>
   <h2>Step 2: ContactActions, Tags for Contacts, Opportunities, and Orders</h2>
   <%= form_tag({action: :step2}, multipart: true) do %>
   <u><h3>Records to Transfer</h3></u>
@@ -31,7 +34,7 @@
 	</div>
   <br />
   <hr />
-	<%= button_tag "Get CSVs" %>
+	<%= button_tag "Generate CSVs" %>
 <% end %>
 </div>
 <div class="form-container">

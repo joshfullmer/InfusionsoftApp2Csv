@@ -1,0 +1,112 @@
+InvoiceId,PayDate,PayType,PayAmt,PayNote
+6871,2013-09-26 20:10:32,Credit Card,5.45,Auto-charge for Invoice #6
+6873,2013-10-02 00:00:00,Credit Card (Manual),3.0,
+6873,2013-10-02 17:29:59,Refund,-3.0,Payment has been cancelled.  Please verify that client's money has been returned.
+6873,2013-10-02 17:29:59,Credit,3.0,i hate it
+6879,2013-10-03 14:43:40,Credit Card,15.0,Auto-charge for Invoice #18
+6881,2013-10-03 14:49:50,Credit Card,19.97,Auto-charge for Invoice #20
+6883,2013-10-03 14:52:30,Credit Card,39.99,Auto-charge for Invoice #22
+6909,2013-11-21 11:08:23,Credit Card,10.0,Auto-charge for Invoice #50
+6911,2013-11-21 11:10:57,Credit Card,5.0,Auto-charge for Invoice #52
+6913,2013-11-26 15:39:37,Credit Card,10.0,Auto-charge for Invoice #54
+6891,2014-01-21 16:27:15,Write-off,10.0,Batch write-off by Josh Fullmer
+6937,2014-01-22 15:01:49,Credit Card,10.45,Auto-charge for Invoice #78
+6941,2014-01-28 17:56:48,Credit Card,16.36,Auto-charge for Invoice #86
+6943,2014-01-29 01:08:51,Credit Card,10.45,Auto-charge for Invoice #88
+6949,2014-02-05 01:20:32,Credit Card,10.45,Auto-charge for Invoice #94
+6953,2014-02-12 02:41:32,Credit Card,10.45,Auto-charge for Invoice #98
+6957,2014-02-19 00:32:31,Credit Card,10.45,Auto-charge for Invoice #102
+6961,2014-02-26 02:25:11,Credit Card,10.45,Auto-charge for Invoice #106
+6967,2014-03-05 03:20:05,Credit Card,10.45,Auto-charge for Invoice #112
+6941,2014-03-10 13:11:25,Refund,-16.36,Error while refunding charge through merchant gateway: null
+6973,2014-03-10 14:39:03,Credit Card,20.0,Auto-charge for Invoice #118
+6941,2014-03-10 16:20:16,Credit Card,16.36,Auto-charge for Invoice #86
+6975,2014-03-12 04:20:21,Credit Card,10.45,Auto-charge for Invoice #120
+6979,2014-03-19 01:27:27,Credit Card,10.45,Auto-charge for Invoice #128
+6983,2014-03-26 04:41:12,Credit Card,10.45,Auto-charge for Invoice #134
+6989,2014-04-02 01:11:14,Credit Card,10.45,Auto-charge for Invoice #142
+6993,2014-04-09 02:07:37,Credit Card,10.45,Auto-charge for Invoice #148
+6997,2014-04-16 01:52:16,Credit Card,10.45,Auto-charge for Invoice #154
+7001,2014-04-23 04:26:33,Credit Card,10.45,Auto-charge for Invoice #158
+7005,2014-04-30 04:03:45,Credit Card,10.45,Auto-charge for Invoice #164
+7011,2014-05-07 01:24:34,Credit Card,10.45,Auto-charge for Invoice #172
+7017,2014-05-12 19:51:59,Credit Card,30.0,Auto-charge for Invoice #180
+7043,2014-05-17 04:24:56,PayPal,30.0,Transaction Id: 59M959062C204625G Email: bghodgins@gmail.com
+7065,2014-06-10 12:26:48,Credit Card,16.36,Invoice Ids: 236
+7079,2014-06-27 12:09:17,Credit Card,15.91,Invoice Ids: 258
+7065,2014-06-27 12:10:06,Refund,-16.36,Payment has been cancelled.  Please verify that client's money has been returned.
+7065,2014-06-27 12:10:06,Credit,16.36,test
+7085,2014-06-30 19:56:59,Credit Card,10.0,Invoice Ids: 266
+7113,2014-08-07 01:47:26,Credit Card,5.45,Invoice Ids: 304
+7117,2014-08-14 02:46:21,Credit Card,5.45,Invoice Ids: 310
+7121,2014-08-21 05:29:04,Credit Card,5.45,Invoice Ids: 316
+7127,2014-08-28 04:50:02,Credit Card,5.45,Invoice Ids: 324
+7129,2014-08-29 13:45:05,Credit Card,15.0,Invoice Ids: 326
+7135,2014-09-04 05:08:54,Credit Card,5.45,Invoice Ids: 334
+7139,2014-09-11 03:14:25,Credit Card,5.45,Invoice Ids: 340
+7145,2014-09-18 04:17:34,Credit Card,5.45,Invoice Ids: 350
+7149,2014-09-25 05:21:32,Credit Card,5.45,Invoice Ids: 356
+7153,2014-10-02 05:03:12,Credit Card,5.45,Invoice Ids: 362
+7159,2014-10-09 04:50:23,Credit Card,5.45,Invoice Ids: 370
+7161,2014-10-09 11:02:53,Credit Card,97.0,Invoice Ids: 372
+7165,2014-10-16 01:25:40,Credit Card,5.45,Auto Charge For Invoice Ids:376
+7141,2014-10-20 17:47:03,Credit Card,97.0,Auto Charge For Invoice Ids:346
+7171,2014-10-23 03:47:16,Credit Card,5.45,Auto Charge For Invoice Ids:384
+7175,2014-10-30 05:25:00,Credit Card,5.45,Auto Charge For Invoice Ids:392
+7181,2014-11-06 02:48:00,Credit Card,5.45,Auto Charge For Invoice Ids:398
+7185,2014-11-12 13:22:10,Credit Card,5.0,Auto Charge For Invoice Ids:406
+7187,2014-11-13 03:11:49,Credit Card,5.45,Auto Charge For Invoice Ids:408
+7191,2014-11-20 03:22:27,Credit Card,5.45,Auto Charge For Invoice Ids:412
+7195,2014-11-27 02:52:37,Credit Card,5.45,Auto Charge For Invoice Ids:416
+7201,2014-12-04 03:09:05,Credit Card,5.45,Auto Charge For Invoice Ids:422
+7203,2014-12-05 12:24:06,Credit Card,97.0,Auto Charge For Invoice Ids:424
+7207,2014-12-11 02:58:14,Credit Card,5.45,Auto Charge For Invoice Ids:428
+7211,2014-12-18 03:08:13,Credit Card,5.45,Auto Charge For Invoice Ids:432
+7215,2014-12-25 00:50:10,Credit Card,5.45,Auto Charge For Invoice Ids:436
+7219,2015-01-01 02:56:30,Credit Card,5.45,Auto Charge For Invoice Ids:440
+7225,2015-01-08 04:37:04,Credit Card,5.45,Auto Charge For Invoice Ids:446
+7221,2015-01-14 00:00:00,Credit Card,50.0,Auto Charge For Invoice Ids:442
+7229,2015-01-15 03:30:59,Credit Card,5.45,Auto Charge For Invoice Ids:450
+7233,2015-01-22 02:49:45,Credit Card,5.45,Auto Charge For Invoice Ids:454
+7235,2015-01-29 02:44:22,Credit Card,5.45,Auto Charge For Invoice Ids:456
+7239,2015-02-02 12:53:05,Credit Card,35.0,Auto Charge For Invoice Ids:460
+7025,2015-02-02 17:59:57,Credit Card,373.5,"Auto Charge For Invoice Ids:188,210,218,232,240,248,254,270,276,282,288,294,302,308,314,320,332,338,348,354,360,368,374,382,390,396,400,410,414,420,426,430,434,438,444,448"
+7241,2015-02-03 09:55:58,Credit Card,15.91,Auto Charge For Invoice Ids:462
+7243,2015-02-04 10:04:51,Credit Card,15.0,Auto Charge For Invoice Ids:464
+7243,2015-02-11 17:19:00,Refund,-15.0,Payment has been cancelled.  Please verify that client's money has been returned.
+7243,2015-02-11 17:19:00,Credit,15.0,test
+7289,2015-03-02 11:34:08,Credit Card,100.0,Auto Charge For Invoice Ids:510
+7347,2015-03-26 12:42:43,Credit Card,100.0,Auto Charge For Invoice Ids:564
+7471,2015-05-15 18:55:22,Credit Card,5000.0,Auto Charge For Invoice Ids:682
+7471,2015-05-22 17:25:35,Credit Card,500.0,Auto Charge For Invoice Ids:682
+7537,2015-06-11 12:09:46,Credit Card,20.0,Auto Charge For Invoice Ids:746
+7547,2015-06-16 16:04:46,Credit Card,20.0,756 CustomerHub.net online payment
+7581,2015-06-30 16:49:40,Credit Card,49.0,Auto Charge For Invoice Ids:790
+7601,2015-07-06 14:44:46,Credit Card,25.0,Auto Charge For Invoice Ids:810
+7681,2015-08-07 03:50:42,Credit Card,20.0,Auto Charge For Invoice Ids:890
+7693,2015-08-12 00:00:00,Credit Card (Manual),2500.0,
+7759,2015-09-07 03:57:56,Credit Card,20.0,Auto Charge For Invoice Ids:970
+7785,2015-09-17 11:54:59,Check,1337.0,
+7471,2015-09-30 20:00:37,Refund,-5000.0,Payment has been cancelled.  Please verify that client's money has been returned.
+7471,2015-09-30 20:00:37,Credit,5000.0,chargeback
+7835,2015-10-07 04:07:41,Credit Card,20.0,Auto Charge For Invoice Ids:1046
+7471,2015-10-28 22:21:33,Credit Card,13.0,Auto Charge For Invoice Ids:682
+7913,2015-11-07 03:32:07,Credit Card,20.0,Auto Charge For Invoice Ids:1124
+7987,2015-12-07 03:11:22,Credit Card,20.0,Auto Charge For Invoice Ids:1198
+8065,2016-01-07 02:50:38,Credit Card,20.0,Auto Charge For Invoice Ids:1276
+8077,2016-01-12 09:44:15,Credit Card,15.91,Auto Charge For Invoice Ids:1288
+8079,2016-01-12 09:47:15,Credit Card,15.91,Auto Charge For Invoice Ids:1290
+8099,2016-01-20 15:37:58,Credit Card,97.0,Auto Charge For Invoice Ids:1310
+8147,2016-02-07 03:34:02,Credit Card,20.0,Auto Charge For Invoice Ids:1356
+8219,2016-03-07 04:21:39,Credit Card,20.0,Auto Charge For Invoice Ids:1428
+8297,2016-04-07 00:02:12,Credit Card,20.0,Auto Charge For Invoice Ids:1506
+8371,2016-05-07 04:06:11,Credit Card,20.0,Auto Charge For Invoice Ids:1578
+8395,2016-05-17 17:14:29,Credit Card,30.0,Auto Charge For Invoice Ids:1602
+8449,2016-06-07 04:04:56,Credit Card,20.0,Auto Charge For Invoice Ids:1656
+8525,2016-07-07 03:47:40,Credit Card,20.0,Auto Charge For Invoice Ids:1732
+8601,2016-08-07 03:49:48,Credit Card,20.0,Auto Charge For Invoice Ids:1808
+8677,2016-09-07 03:37:50,Credit Card,20.0,Auto Charge For Invoice Ids:1884
+8753,2016-10-07 03:58:29,Credit Card,20.0,Auto Charge For Invoice Ids:1960
+8831,2016-11-07 04:06:33,Credit Card,20.0,Auto Charge For Invoice Ids:2036
+8905,2016-12-07 04:51:56,Credit Card,20.0,Auto Charge For Invoice Ids:2108
+9223,2017-04-13 17:02:24,Credit Card (Manual),5000.0,

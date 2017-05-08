@@ -1,6 +1,8 @@
 <div class="form-container">
   <h2>Step 2 Results:</h2>
-  Placeholder for download links
+  <%= button_to [:download_step2] do %>
+    Download CSVs
+  <% end %>
   <h2>Step 3: Order Items and Payments</h2>
   <%= form_tag({action: :step3}, multipart: true) do %>
   <u><h3>Records to Transfer</h3></u>
@@ -13,7 +15,7 @@
 	</div>
   <br />
   <hr />
-	<%= button_tag "Get CSVs" %>
+	<%= button_tag "Generate CSVs" %>
 <% end %>
 </div>
 <div class="form-container">

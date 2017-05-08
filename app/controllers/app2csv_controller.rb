@@ -15,7 +15,7 @@ class App2csvController < ApplicationController
       dest_key: params[:dest_apikey]
     }
 
-    FileUtils::mkdir_p Rails.root.join('public',@@app_cred[:src_app])
+    FileUtils::mkdir_p Rails.root.join('public',@@app_cred[:src_app],'step1')
 
     initialize_infusionsoft(@@app_cred[:src_app], @@app_cred[:src_key])
 
@@ -34,6 +34,15 @@ class App2csvController < ApplicationController
     tags if params[:tags][:checkbox] == 'true'
     products if params[:products][:checkbox] == 'true'
 
+    path = Rails.root.join('public',@@app_cred[:src_app],'step1')
+    archive = Rails.root.join('public',@@app_cred[:src_app],'step1',"#{@@app_cred[:src_app]}-#{@@app_cred[:dest_app]}-step1.zip")
+    `rm "#{archive}"` # remove the archive file, if it exists.
+    `zip -rj "#{archive}" "#{path}"` # zip the contents of the directory
+
+  end
+
+  def download_step1
+    send_file(Rails.root.join('public',@@app_cred[:src_app],'step1',"#{@@app_cred[:src_app]}-#{@@app_cred[:dest_app]}-step1.zip"), :type=>"application/zip" , :x_sendfile=>true)
   end
 
   def contacts
@@ -108,7 +117,7 @@ class App2csvController < ApplicationController
     headers << @@src_company_id
     headers -= ['ContactNotes']
     headers.sort!
-    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'contacts.csv'),'wb+') do |csv|
+    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'step1','contacts.csv'),'wb+') do |csv|
       csv << headers
       src_contacts.each do |c|
         next if dest_contacts.include? c['Id'].to_s
@@ -123,7 +132,7 @@ class App2csvController < ApplicationController
       end
     end
 
-    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'email_opt_outs.csv'),'wb+') do |csv|
+    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'step1','email_opt_outs.csv'),'wb+') do |csv|
       csv << ['Opted Out Email Address']
       opted_out_emails.each do |e|
         csv << [e['Email']]
@@ -163,7 +172,7 @@ class App2csvController < ApplicationController
 
     headers = src_companies.flat_map(&:keys).uniq
     headers.sort!
-    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'companies.csv'),'wb+') do |csv|
+    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'step1','companies.csv'),'wb+') do |csv|
       csv << headers
       src_companies.each do |c|
         next if dest_companies.include? c['Id'].to_s
@@ -279,6 +288,8 @@ class App2csvController < ApplicationController
 #===============================================================================
 
   def step2
+    FileUtils::mkdir_p Rails.root.join('public',@@app_cred[:src_app],'step2')
+
     initialize_infusionsoft(@@app_cred[:dest_app],@@app_cred[:dest_key])
 
     puts '| Creating Contact Relationships'
@@ -297,6 +308,16 @@ class App2csvController < ApplicationController
     opportunities if params[:opportunities][:checkbox] == 'true'
     orders if params[:orders][:checkbox] == 'true'
     subscriptions if params[:subscriptions][:checkbox] == 'true'
+
+    path = Rails.root.join('public',@@app_cred[:src_app],'step2')
+    archive = Rails.root.join('public',@@app_cred[:src_app],'step2',"#{@@app_cred[:src_app]}-#{@@app_cred[:dest_app]}-step2.zip")
+    `rm "#{archive}"` # remove the archive file, if it exists.
+    `zip -rj "#{archive}" "#{path}"` # zip the contents of the directory
+
+  end
+
+  def download_step2
+    send_file(Rails.root.join('public',@@app_cred[:src_app],'step2',"#{@@app_cred[:src_app]}-#{@@app_cred[:dest_app]}-step2.zip"), :type=>"application/zip" , :x_sendfile=>true)
   end
 
   def tags_for_contacts
@@ -311,7 +332,7 @@ class App2csvController < ApplicationController
     initialize_infusionsoft(@@app_cred[:dest_app],@@app_cred[:dest_key])
 
     puts '|| Creating CSV'
-    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'tags_for_contacts.csv'),'wb+') do |csv|
+    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'step2','tags_for_contacts.csv'),'wb+') do |csv|
       csv << ['ContactId','TagId']
       src_tag_assign.each do |a|
         next if @@con_rel[a['ContactId']].nil? && @@comp_rel[a['Contact.CompanyID']].nil?
@@ -342,7 +363,7 @@ class App2csvController < ApplicationController
     headers = src_notes.flat_map(&:keys).uniq
     headers << @@src_action_id
     headers.sort!
-    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'notes.csv'),'wb+') do |csv|
+    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'step2','notes.csv'),'wb+') do |csv|
       csv << headers
       src_notes.each do |n|
         next if @@con_rel[n['ContactId']].nil? || dest_notes.include?(n['Id'].to_s)
@@ -384,7 +405,7 @@ class App2csvController < ApplicationController
 
     headers = src_actions.flat_map(&:keys).uniq
     headers.sort!
-    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'tasks_appointments.csv'),'wb+') do |csv|
+    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'step2','tasks_appointments.csv'),'wb+') do |csv|
       csv << headers
       src_actions.each do |a|
         next if @@con_rel[a['ContactId']].nil? || dest_actions.include?(a['Id'].to_s)
@@ -420,13 +441,13 @@ class App2csvController < ApplicationController
     rename_mapping = {}
     src_cfs.each do |cf|
       if cf['FormId'] == -4
-        field = create_custom_field(cf['Label'],0,'Opportunity',DATATYPES[DATATYPE_IDS[cf['DataType']]]['dataType'])
+        field = create_custom_field(cf['Label'],0,'Lead',DATATYPES[DATATYPE_IDS[cf['DataType']]]['dataType'])
         rename_mapping['_' + cf['Name']] = field['Name']
         Infusionsoft.data_update_custom_field(field['Id'],{ 'Values' => cf['Values'] }) if DATATYPES[DATATYPE_IDS[cf['DataType']]]['hasValues'] == 'yes'  && customfield['Values'] != nil
       end
     end
 
-    @@src_opp_id = create_custom_field('Source App Opportunity ID',0,'Opportunity','Text')['Name']
+    @@src_opp_id = create_custom_field('Source App Opportunity ID',0,'Lead','Text')['Name']
 
     dest_opps = []
     get_table("Lead",[@@src_opp_id,'Id'],{@@src_opp_id => "_%"}).each do |opp|
@@ -436,7 +457,7 @@ class App2csvController < ApplicationController
     headers = src_opps.flat_map(&:keys).uniq
     headers << @@src_opp_id
     headers.sort!
-    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'opportunities.csv'),'wb+') do |csv|
+    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'step2','opportunities.csv'),'wb+') do |csv|
       csv << headers
       src_opps.each do |opp|
         next if (dest_opps.include?(opp[@@src_opp_id]) || (@@con_rel[opp['ContactID']].nil? && @@comp_rel[opp['ContactID']].nil?))
@@ -479,7 +500,7 @@ class App2csvController < ApplicationController
     headers = src_orders.flat_map(&:keys).uniq
     headers << @@src_order_id
     headers.sort!
-    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'orders.csv'),'wb+') do |csv|
+    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'step2','orders.csv'),'wb+') do |csv|
       csv << headers
       src_orders.each do |o|
         next unless (@@con_rel[o['ContactId']]) || !((o['JobRecurringId'] == 0)) || dest_orders.exclude?(o['Id'])
@@ -520,7 +541,7 @@ class App2csvController < ApplicationController
 
     puts '||| Writing to CSV'
     headers = ['ContactId','SubscriptionPlanId','ProductId','ProgramId','CC1','PaymentGatewayId','Frequency','BillingCycle','BillingAmt','PromoCode','Status','StartDate','EndDate','ReasonStopped','PaidThruDate','NextBillDate','AutoCharge','MaxRetry','NumDaysBetweenRetry']
-    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'subscriptions.csv'),'wb+') do |csv|
+    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'step2','subscriptions.csv'),'wb+') do |csv|
       csv << headers
       src_subs.each do |s|
         s['ContactId'] = @@con_rel[s['ContactId']]
@@ -588,6 +609,8 @@ class App2csvController < ApplicationController
 #===============================================================================
 
   def step3
+    FileUtils::mkdir_p Rails.root.join('public',@@app_cred[:src_app],'step3')
+
     initialize_infusionsoft(@@app_cred[:dest_app], @@app_cred[:dest_key])
 
     @@order_rel = {}
@@ -595,6 +618,16 @@ class App2csvController < ApplicationController
 
     order_items if params[:order_items][:checkbox] == 'true'
     payments if params[:payments][:checkbox] == 'true'
+
+    path = Rails.root.join('public',@@app_cred[:src_app],'step3')
+    archive = Rails.root.join('public',@@app_cred[:src_app],'step3',"#{@@app_cred[:src_app]}-#{@@app_cred[:dest_app]}-step3.zip")
+    `rm "#{archive}"` # remove the archive file, if it exists.
+    `zip -rj "#{archive}" "#{path}"` # zip the contents of the directory
+
+  end
+
+  def download_step3
+    send_file(Rails.root.join('public',@@app_cred[:src_app],'step3',"#{@@app_cred[:src_app]}-#{@@app_cred[:dest_app]}-step3.zip"), :type=>"application/zip" , :x_sendfile=>true)
   end
 
   def order_items
@@ -615,7 +648,7 @@ class App2csvController < ApplicationController
 
         puts '||| Writing to CSV'
     headers = ['OrderId','ProductId','ItemType','ItemName','ItemDescription','Qty','PricePerUnit','Notes']
-    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'order_items.csv'),'wb+') do |csv|
+    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'step3','order_items.csv'),'wb+') do |csv|
       csv << headers
       src_oitems.each do |oi|
         oi['OrderId'] = @@order_rel[oi['OrderId']]
@@ -658,7 +691,7 @@ class App2csvController < ApplicationController
 
     puts '||| Writing to CSV'
     headers = ['InvoiceId','PayDate','PayType','PayAmt','PayNote']
-    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'payments.csv'),'wb+') do |csv|
+    CSV.open(Rails.root.join('public',@@app_cred[:src_app],'step3','payments.csv'),'wb+') do |csv|
       csv << headers
       src_payments.each do |pay|
         pay['InvoiceId'] = inv_rel[pay['InvoiceId'].to_i]
